@@ -20,25 +20,25 @@ Le projet met en pratique la programmation orientée objet, la communication ré
 
 ## Fonctionnalités réalisées
 
-###  Connexion au serveur
+### - Connexion au serveur
 
 * Le client saisit l’adresse IP et le port.
 * Le serveur accepte plusieurs clients en parallèle.
 * Chaque utilisateur choisit un **pseudonyme** unique.
 
-###  Envoi et réception de messages
+### - Envoi et réception de messages
 
 * Le client envoie un message.
 * Le serveur le redistribue à tous les clients connectés.
 * Le message diffusé contient : **pseudo + texte chiffré**.
 
-###  Sécurisation complète
+### - Sécurisation complète
 
 * Les messages sont **chiffrés en AES** côté client avant l’envoi.
 * Le serveur déchiffre et redistribue les messages chiffrés.
 * La **clé secrète AES** est transmise via un échange **RSA**.
 
-###  Déconnexion propre
+### - Déconnexion propre
 
 * Le client peut quitter simplement en tapant :
   **Bye** ou **Goodbye**
