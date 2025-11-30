@@ -1,13 +1,13 @@
 # SecureChat – Messagerie Sécurisée en Java
 
-## 📝 Description
+## Description
 
 SecureChat est une application Client–Serveur sécurisée en Java permettant à plusieurs utilisateurs d’échanger des messages chiffrés via des sockets TCP.
 Le projet met en pratique la programmation orientée objet, la communication réseau et l’utilisation d’API de cryptographie (AES & RSA).
 
 ---
 
-## 🎯 Objectifs demandés dans l’exercice
+## Objectifs demandés dans l’exercice
 
 * Développer un modèle **Client / Serveur** basé sur les sockets.
 * Gérer plusieurs clients simultanément via des **threads**.
@@ -18,27 +18,27 @@ Le projet met en pratique la programmation orientée objet, la communication ré
 
 ---
 
-## 🚀 Fonctionnalités réalisées
+## Fonctionnalités réalisées
 
-### 🔗 Connexion au serveur
+### Connexion au serveur
 
 * Le client saisit l’adresse IP et le port.
 * Le serveur accepte plusieurs clients en parallèle.
 * Chaque utilisateur choisit un **pseudonyme** unique.
 
-### 💬 Envoi et réception de messages
+### Envoi et réception de messages
 
 * Le client envoie un message.
 * Le serveur le redistribue à tous les clients connectés.
 * Le message diffusé contient : **pseudo + texte chiffré**.
 
-### 🔐 Sécurisation complète
+### Sécurisation complète
 
 * Les messages sont **chiffrés en AES** côté client avant l’envoi.
 * Le serveur déchiffre et redistribue les messages chiffrés.
 * La **clé secrète AES** est transmise via un échange **RSA**.
 
-### 👋 Déconnexion propre
+### Déconnexion propre
 
 * Le client peut quitter simplement en tapant :
   **Bye** ou **Goodbye**
@@ -47,7 +47,7 @@ Le projet met en pratique la programmation orientée objet, la communication ré
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 src/
@@ -59,6 +59,6 @@ src/
 
 ---
 
-## 📌 Auteur
+## Auteur
 
 Projet réalisé dans un cadre pédagogique sur les communications sécurisées en Java.
