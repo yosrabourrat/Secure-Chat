@@ -49,11 +49,13 @@ Le projet met en pratique la **programmation orientée objet**, la **communicati
 
 ## 📁 Structure du projet
 
+...
 src/
  ├── SecureChatServer.java
  ├── SecureChatClient.java
  ├── ClientHandler.java
  └── CryptoUtils.java
+...
 
 ---
 
