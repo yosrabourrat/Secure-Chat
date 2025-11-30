@@ -2,8 +2,8 @@
 
 ## 📝 Description
 
-SecureChat est une application **Client–Serveur sécurisée en Java** permettant à plusieurs utilisateurs d’échanger des messages chiffrés via des sockets TCP.
-Le projet met en pratique la **programmation orientée objet**, la **communication réseau** et l’utilisation d’**API de cryptographie** (AES & RSA).
+SecureChat est une application Client–Serveur sécurisée en Java permettant à plusieurs utilisateurs d’échanger des messages chiffrés via des sockets TCP.
+Le projet met en pratique la programmation orientée objet, la communication réseau et l’utilisation d’API de cryptographie (AES & RSA).
 
 ---
 
