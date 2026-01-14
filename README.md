@@ -1,5 +1,9 @@
 # SecureChat – Messagerie Sécurisée en Java
 
+*Réalisé par* : Yosra BOURRAT et Fatima Zahra NACIRI
+
+*Encadré par* : M.BENTAJER
+
 ## Description
 
 SecureChat est une application Client–Serveur sécurisée en Java permettant à plusieurs utilisateurs d’échanger des messages chiffrés via des sockets TCP.
